@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miles Mattson | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Miles Mattson</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Miles Mattson</span></h1>
+                <h2>Game designer</h2>
+                <p class="bio">I am a student of the University of Pittsburgh majoring in Digital Narrative and Interactive Design</p>
+                <div class="cta-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-profile">
+                    <img src="Profile.jpg" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-image">
+                        <img src="Fun.jpg" alt="Fun">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I am a student, a brother, a son, and a friend. I knew from the age of 12 that I wanted to make games. Ever since playtesting for Schell Games and looking around the studio the realization that making games in a viable carreer and I wanted to be apart of it.</p>
+                    
+                    <h3>My Skills</h3>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h4>Technical Skills</h4>
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>JavaScript</li>
+                                <li>Unity</li>
+                                <li>Java</li>
+                                <li>unreal</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Design Skills</h4>
+                            <ul>
+                                <li>Level Design</li>
+                                <li>Encounter Design</li>
+                                <li>System Design</li>
+                                <li>Narrative Design</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Soft Skills</h4>
+                            <ul>
+                                <li>Communication</li>
+                                <li>Teamwork</li>
+                                <li>Problem Solving</li>
+                                <li>Time Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Portfolio</span></h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="design">Game Design</button>
+                <button class="filter-btn" data-filter="development">Game Development</button>
+                <button class="filter-btn" data-filter="Narrative">Narrative</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="development">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="Tombstone_Taxi.jpg" alt="Tombstone Taxi">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Tombstone Taxi</h3>
+                            <p>I joined the Pixel Diamong Games team in the summer of 2023. I was put to work on the Tombstone Taxi project where I designed and developed a boss fight. 
+                                I started from a google document and ended with a viable product in game</p>
+                            <div class="portfolio-links">
+                                <a href="https://store.steampowered.com/app/2472700/Tombstone_Taxi/" class="link-btn">Steam page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="idTEch.jpg" alt="ID Tech camp">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>ID Tech camp</h3>
+                            <p>I went to the tech camp to learn unreal engine.</p>
+                            <div class="portfolio-links">
+                                <a href="https://www.idtech.com/?utm_source=google&utm_medium=cpc&utm_campaign=58544160&utm_content=1792579680&utm_term=idtech&gad_source=1&gclid=Cj0KCQjw_JzABhC2ARIsAPe3ynpMohDZoPcgsXNNT0wLCPUK3OZ_647SBuBm1JwHQRwronyb-tNx1W8aAkXeEALw_wcB" class="link-btn">ID Tech camp website</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="development">
+                <div class="portfolio-item" data-category="Narrative"></div>
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="Mystery.jpg" alt="Murder mystery">
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h3>Ren'py</h3>
+                            <p>For a class project with the help of another classmate we made the characters and story then coded the game in Ren'py</p>
+                            <div class="portfolio-links">
+                                <a href="https://github.com/CarolineMcDonough/UnsolvedMystery" class="link-btn">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Resume</span></h2>
+            <div class="resume-content">
+                <div class="resume-download">
+                    <a href="Resume.pdf" class="btn btn-primary">Download PDF</a>
+                </div>
+                
+                <div class="resume-columns">
+                    <div class="resume-column">
+                        <h3>Education</h3>
+                        <div class="resume-item">
+                            <h4>University of Pittsburgh</h4>
+                            <p class="resume-date">2020-2025</p>
+                            <p class="resume-degree">Bachelor of Science in Digital Narrative and Interactive Design</p>
+                            <p class="resume-description">Specialized in game design</p>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <h4>ID Tech Bootcamp</h4>
+                            <p class="resume-date">2015</p>
+                            <p class="resume-degree">Unreal development</p>
+                            <p class="resume-description">Intensive 2-week program covering the Unreal Engine and its blueprint System.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-column">
+                        <h3>Experience</h3>
+                        <div class="resume-item">
+                            <h4>Game Developer</h4>
+                            <p class="resume-date">2023 - Present</p>
+                            <p class="resume-company">Pixel Diamond Games.</p>
+                            <p class="resume-description">Design and Develop for the Tombstone Taxi and collaborate with the art team to make a cohesive game with enviornmental story tellimg.</p>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <h4>Class work</h4>
+                            <p class="resume-date">fall 2024</p>
+                            <p class="resume-description">Made a game in Renpy with another classmate.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>C#</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>C++</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Game Design</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>miles1017@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (412)-932-4090</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Pittsburgh, USA</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/miles-mattson-4b95b8269/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/optimistic-Pig"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form action="https://script.google.com/macros/s/AKfycbxXW2mO8Ki-4FJNWrhX3cRIKtUZXIxG5rdfcTDTe_gbo_gTCFFIlfJqGuuybRbh596F/exec" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send to my google form</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Blog</span></h2>
+            <p class="section-subtitle">Thoughts, tutorials, and industry insights</p>
+            
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <div class="blog-card">
+                    <!--  <div class="blog-image">
+                      <img src="https://via.placeholder.com/600x400" alt="Blog Post 1">
+                    </div> --> 
+                    <div class="blog-content">
+                        <span class="blog-date">April 18, 2025</span>
+                        <h3>Night in the woods introspective</h3>
+                        <p>Night in the woods is one of my favorite games and I hope it will be yours too.</p>
+                        <a href="blog.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 2 -->
+                <div class="blog-card">
+                    <!-- <div class="blog-image">
+                       <img src="https://via.placeholder.com/600x400" alt="Blog Post 2">
+                    </div> -->
+                    <div class="blog-content">
+                        <span class="blog-date">April 19, 2053</span>
+                        <h3>Why is Team Fortress 2 still relevant?</h3>
+                        <p>What makes this 18 year old game still have an active community?</p>
+                        <a href="blog.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 3 -->
+                <div class="blog-card">
+                    <!-- <div class="blog-image">
+                       <img src="https://via.placeholder.com/600x400" alt="Blog Post 3"> 
+                    </div> -->
+                    <div class="blog-content">
+                        <span class="blog-date">April 17, 2025</span>
+                        <h3>Gamecube, an underrated console</h3>
+                        <p>Reflecting on an amazing console.</p>
+                        <a href="blog.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-cta">
+                <a href="blog.html" class="btn btn-primary">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Miles Mattson</h3>
+                    <p>A passionate game designer dedicated to creating immersive digital worlds.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/miles-mattson-4b95b8269/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/optimistic-Pig"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Miles Mattson. All Rights Reserved.</p>
+                <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
